@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores3</title>
+    <style>
+        * {
+            background: black;
+        }
+        p {
+            color: lawngreen;
+
+        }
+        p:hover {
+            color: lightsalmon;
+            
+        }
+        p::first-letter {
+            color: coral;
+        }
+        p::before{
+            content:"😁";
+        }
+        p::after {
+            content: "😁";
+        }
+        span {
+            color: lightslategray;
+        }
+        span:hover {
+            color: mediumblue;
+            
+        }
+       div p:nth-child(2) {
+           color: brown;
+       } 
+       ::placeholder {
+           color: blanchedalmond;
+
+       }
+
+    
+    </style>
+</head>
+<body>
+    <p>hola esto es otro </p>
+    <span>Parrafo probando</span>
+    <div>
+        <p>Hola1</p>
+        <p>Hola2</p>
+        <p>Hola3</p>
+    </div>
+    <input type="text" placeholder="nombre"> 
+</body>
+</html>
